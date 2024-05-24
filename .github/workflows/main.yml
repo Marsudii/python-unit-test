@@ -1,5 +1,4 @@
-name: Python application
-
+name: Python application Flask Unit Test Coverage
 on:
   push:
     branches: [ master ]
@@ -7,7 +6,7 @@ on:
     branches: [ master ]
 jobs:
   test:
-
+    name: Unit-Test-Coverage
     runs-on: ubuntu-latest
 
     steps:
