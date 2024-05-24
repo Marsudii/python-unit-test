@@ -10,7 +10,7 @@ class BasicTests(unittest.TestCase):
         response_data = response.get_json()
         self.assertEqual(response_data['status'], 200)
         self.assertEqual(response_data['data'], 'Hello, World!')
-        self.assertEqual(response_data['message'], 'Successs')
+        self.assertEqual(response_data['message'], 'Success')
 
 
 if __name__ == '__main__':
