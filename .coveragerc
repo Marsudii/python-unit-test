@@ -1,0 +1,10 @@
+[run]
+source = ./tests
+omit =
+    */site-packages/*
+    tests/__init__.py  # Tambahkan ini jika tidak ingin melacak __init__.py di tests
+
+[report]
+omit =
+    */site-packages/*
+    tests/__init__.py  # Tambahkan ini jika tidak ingin melacak __init__.py di tests
